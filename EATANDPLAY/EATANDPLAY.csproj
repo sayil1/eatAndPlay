@@ -1,0 +1,233 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3044EA0E-36B1-4F72-9864-AC45D524D31C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EATANDPLAY</RootNamespace>
+    <AssemblyName>EATANDPLAY</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AFRICANDISH.aspx" />
+    <Content Include="App_Data\EATANDPLAY.mdf">
+    </Content>
+    <Content Include="App_Data\EATANDPLAY_log.ldf">
+      <DependentUpon>EATANDPLAY.mdf</DependentUpon>
+    </Content>
+    <Content Include="ADMINISTRATOR.aspx" />
+    <Content Include="eatandp\3d_989 - Copy.jpg" />
+    <Content Include="eatandp\download %281%29.jpg" />
+    <Content Include="eatandp\download %282%29.jpg" />
+    <Content Include="eatandp\download %283%29.jpg" />
+    <Content Include="eatandp\download %284%29.jpg" />
+    <Content Include="eatandp\download %285%29.jpg" />
+    <Content Include="eatandp\download %286%29.jpg" />
+    <Content Include="eatandp\download.jpg" />
+    <Content Include="eatandp\foreign\images %2812%29.jpg" />
+    <Content Include="eatandp\foreign\images %2817%29.jpg" />
+    <Content Include="eatandp\foreign\images %2818%29.jpg" />
+    <Content Include="eatandp\foreign\images %2819%29.jpg" />
+    <Content Include="eatandp\foreign\images %2820%29.jpg" />
+    <Content Include="eatandp\foreign\images %2821%29.jpg" />
+    <Content Include="eatandp\foreign\images %2822%29.jpg" />
+    <Content Include="eatandp\foreign\images %2823%29.jpg" />
+    <Content Include="eatandp\foreign\images %286%29.jpg" />
+    <Content Include="eatandp\foreign\images %287%29.jpg" />
+    <Content Include="eatandp\images %281%29.jpg" />
+    <Content Include="eatandp\images %2811%29.jpg" />
+    <Content Include="eatandp\images %2812%29.jpg" />
+    <Content Include="eatandp\images %2813%29.jpg" />
+    <Content Include="eatandp\images %282%29.jpg" />
+    <Content Include="eatandp\images %283%29.jpg" />
+    <Content Include="eatandp\images %284%29.jpg" />
+    <Content Include="eatandp\images %285%29.jpg" />
+    <Content Include="eatandp\images %286%29.jpg" />
+    <Content Include="eatandp\images %287%29.jpg" />
+    <Content Include="eatandp\images %288%29.jpg" />
+    <Content Include="eatandp\images %289%29.jpg" />
+    <Content Include="eatandp\images.jpg" />
+    <Content Include="eatandp\images_4.jpeg" />
+    <Content Include="eatandp\images_6.jpeg" />
+    <Content Include="eatandp\New folder %282%29\download %2812%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\download %2813%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\download %2814%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\FBACHN%3bLADSKUFIHS.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %281%29.png" />
+    <Content Include="eatandp\New folder %282%29\images %2817%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2821%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2822%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2823%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2824%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2825%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2827%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2829%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2830%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2831%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2832%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2833%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %2834%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images %286%29.jpg" />
+    <Content Include="eatandp\New folder %282%29\images.png" />
+    <Content Include="eatandp\Presentation1.png" />
+    <Content Include="eatandp\snacks\download %2810%29.jpg" />
+    <Content Include="eatandp\snacks\download %287%29.jpg" />
+    <Content Include="eatandp\snacks\download %288%29.jpg" />
+    <Content Include="eatandp\snacks\download %289%29.jpg" />
+    <Content Include="eatandp\snacks\images %2810%29.jpg" />
+    <Content Include="eatandp\snacks\images %2814%29.jpg" />
+    <Content Include="eatandp\snacks\images %2815%29.jpg" />
+    <Content Include="eatandp\snacks\images %2816%29.jpg" />
+    <Content Include="eatandp\snacks\images %283%29.jpg" />
+    <Content Include="eatandp\snacks\images %284%29.jpg" />
+    <Content Include="eatandp\snacks\images.jpg" />
+    <Content Include="FOREIGNDISH.aspx" />
+    <Content Include="HOME.aspx" />
+    <Content Include="REGISTRATION.aspx" />
+    <Content Include="SEARCH.aspx" />
+    <Content Include="SNACKS.aspx" />
+    <Content Include="SPECIALORDERS.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WELCOME.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AFRICANDISH.aspx.cs">
+      <DependentUpon>AFRICANDISH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AFRICANDISH.aspx.designer.cs">
+      <DependentUpon>AFRICANDISH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINISTRATOR.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>ADMINISTRATOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ADMINISTRATOR.aspx.designer.cs">
+      <DependentUpon>ADMINISTRATOR.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FOREIGNDISH.aspx.cs">
+      <DependentUpon>FOREIGNDISH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FOREIGNDISH.aspx.designer.cs">
+      <DependentUpon>FOREIGNDISH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HOME.aspx.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HOME.aspx.designer.cs">
+      <DependentUpon>HOME.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="REGISTRATION.aspx.cs">
+      <DependentUpon>REGISTRATION.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="REGISTRATION.aspx.designer.cs">
+      <DependentUpon>REGISTRATION.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SEARCH.aspx.cs">
+      <DependentUpon>SEARCH.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SEARCH.aspx.designer.cs">
+      <DependentUpon>SEARCH.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SNACKS.aspx.cs">
+      <DependentUpon>SNACKS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SNACKS.aspx.designer.cs">
+      <DependentUpon>SNACKS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SPECIALORDERS.aspx.cs">
+      <DependentUpon>SPECIALORDERS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SPECIALORDERS.aspx.designer.cs">
+      <DependentUpon>SPECIALORDERS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WELCOME.aspx.cs">
+      <DependentUpon>WELCOME.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WELCOME.aspx.designer.cs">
+      <DependentUpon>WELCOME.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="eatandp\New folder %282%29\Thumbs.db" />
+    <None Include="eatandp\snacks\Thumbs.db" />
+    <None Include="eatandp\Thumbs.db" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54721</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

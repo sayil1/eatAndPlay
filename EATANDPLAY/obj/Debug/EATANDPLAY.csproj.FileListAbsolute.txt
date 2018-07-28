@@ -1,0 +1,5 @@
+C:\Users\Use\Documents\Visual Studio 2008\Projects\EATANDPLAY\EATANDPLAY\bin\EATANDPLAY.dll
+C:\Users\Use\Documents\Visual Studio 2008\Projects\EATANDPLAY\EATANDPLAY\bin\EATANDPLAY.pdb
+C:\Users\Use\Documents\Visual Studio 2008\Projects\EATANDPLAY\EATANDPLAY\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Use\Documents\Visual Studio 2008\Projects\EATANDPLAY\EATANDPLAY\obj\Debug\EATANDPLAY.dll
+C:\Users\Use\Documents\Visual Studio 2008\Projects\EATANDPLAY\EATANDPLAY\obj\Debug\EATANDPLAY.pdb
